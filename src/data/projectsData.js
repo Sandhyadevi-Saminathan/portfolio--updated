@@ -13,6 +13,8 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Nodejs','MongoDB'],
         code: "https://github.com/Sandhyadevi-Saminathan/Zenclass_Student_Dashboard_Frontend",
         demo: "https://brilliant-wisp-660531.netlify.app/",
+        user:"demo@gmail.com",
+        password:"demo@1234",
         image: zen
     },
     {
@@ -22,6 +24,8 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Nodejs','MongoDB'],
         code: "https://github.com/Sandhyadevi-Saminathan/CRM-Hackathon-Frontend",
         demo: "https://tourmaline-longma-50f3a6.netlify.app/",
+        user:"demo@gmail.com",
+        password:"demo@1234",
         image: crm
     },
     {
@@ -31,6 +35,8 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Nodejs','MongoDB'],
         code: 'https://github.com/Sandhyadevi-Saminathan/library',
         demo: 'https://strong-sable-ed5be0.netlify.app/',
+        user:"demo@gmail.com",
+        password:"demo@1234",
         image: library
     },
     {
@@ -40,23 +46,10 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Nodejs','MongoDB'],
         code: 'https://github.com/Sandhyadevi-Saminathan/Todolist_Frontend',
         demo: 'https://stellular-hotteok-0e643a.netlify.app/',
+        user:"demo@gmail.com",
+        password:"demo@1234",
         image: todo
     },
    
 ]
 
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/

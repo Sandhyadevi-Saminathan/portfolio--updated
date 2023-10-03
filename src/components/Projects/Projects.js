@@ -63,6 +63,8 @@ function Projects() {
                                     code={project.code}
                                     demo={project.demo}
                                     image={project.image}
+                                    user={project.user}
+                                    password={project.password}
                                 />
                             ))}
                         </div> 

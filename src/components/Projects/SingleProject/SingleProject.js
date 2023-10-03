@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './SingleProject.css';
 
-function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
+function SingleProject({ id, name, desc, tags, code, demo, image, theme,user,password }) {
     const useStyles = makeStyles((t) => ({
         iconBtn: {
             display: 'flex',
@@ -95,10 +95,16 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     style={{
                         background: theme.secondary,
                         color: theme.tertiary,
+                    
                     }}
                 >
                     {desc}
+                    <br/><br/>
+                Demo Credentials: <br/>
+                 Username:  {user} <br/>
+                 Password:  {password} <br/>
                 </p>
+               
                 <div
                     className='project--lang'
                     style={{
